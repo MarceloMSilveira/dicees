@@ -41,7 +41,7 @@ var winner = checkWinner(randonNumber1,randonNumber2);
 if (winner===0) {
     document.querySelector("h1").innerText = "Draw."
 } else if (winner===1) {
-    document.querySelector("h1").innerText = "🚩Player 1 Wins!"
+    document.querySelector("h1").innerText = "🏆Player 1 Wins!"
 } else {
-    document.querySelector("h1").innerText = "Player 2 Wins!🚩"
+    document.querySelector("h1").innerText = "Player 2 Wins!🏆"
 }
